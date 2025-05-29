@@ -37,7 +37,7 @@ All of this is very, very WIP. I could axe all of this tomorrow and rewrite it i
 - mouse over tile in map and see the details in a preview window
 
 
-## Phase 1.5 - Code Restructure
+### Phase 1.5 - Code Restructure
 
 - Restructrure the code to make it more readable
 - Documentation
@@ -91,47 +91,15 @@ All of this is very, very WIP. I could axe all of this tomorrow and rewrite it i
 - some super powerful server side export options (thats right this is a full stack app that acts like a normal python web lol... i can explain... the internal server hosts the web app and the web app sends data to the server so the server can do OS functions like disk drive writing and executing other functions that might benefit your game dev.. see next bullet for ideas on what that means)
 - interfacing with other engines... IE your project file can turn into a godot or unity project file. Or maybe it turns into a few C language files so that you can use in your homebrew game projects. Maybe it runs a full build, so it can turn your little diagram into a fully executable windows demo of your world. maybe we just want some pngs of the tilemap and maps. maybe we want to automate a report for a TDD..  lots of options there, none of them really that hard to make
 
+### Phase 4
 
-# Big picture Todo
-
-- adding npcs
-- monsters database
-- items database
-
-# Sections
-- sprite editor
-    - edit 32 monochrome tiles
-- object editor
-    - each object has a type
-    - npc types can have dialog
-    - monster types can walk around
+- touch screen friendly rewrite
 
 
-# methodology
-- no submenus, what you see is what you get
-
-
-
-
-# todo
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+# Unorganized
 
 - SCOPE LIMITER: each sprite is an object, and can have different behaviours set (wall, free, player, wander, pickup, door | killable y/n | hp | what item does it drop when killed ).. if super todo is activated and we create multiple screens, then this doesn't have to be the case anymore.. i feel like this could snowball into something messy so i should probably just stop here lmao.
 
-# super todo
 
 
 
